@@ -17,9 +17,6 @@
   },
   "DirectSites": [
     "geosite:private",
-    "domain:ru",
-    "domain:рф",
-    "domain:su",
     "geosite:category-ru",
     "geosite:whitelist",
     "geosite:apple",
