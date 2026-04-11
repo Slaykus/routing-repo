@@ -1,0 +1,60 @@
+{
+  "Name": "Rain",
+  "GlobalProxy": "true",
+  "RouteOrder": "block-proxy-direct",
+  "RemoteDNSType": "DoH",
+  "RemoteDNSDomain": "https://dns.adguard-dns.com/dns-query",
+  "RemoteDNSIP": "94.140.14.14",
+  "DomesticDNSType": "DoH",
+  "DomesticDNSDomain": "https://77.88.8.8/dns-query",
+  "DomesticDNSIP": "77.88.8.8",
+  "Geoipurl": "https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geoip/release/geoip.dat",
+  "Geositeurl": "https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geosite/release/geosite.dat",
+  "LastUpdated": "4070905200",
+  "DnsHosts": {
+    "dns.adguard-dns.com": "94.140.14.14",
+    "dns.yandex.ru": "77.88.8.8"
+  },
+  "DirectSites": [
+    "geosite:private",
+    "geosite:category-ru",
+    "geosite:whitelist",
+    "geosite:apple",
+    "geosite:google-play",
+    "geosite:microsoft",
+    "geosite:steam",
+    "geosite:twitch",
+    "geosite:epicgames",
+    "geosite:riot",
+    "geosite:escapefromtarkov",
+    "geosite:origin",
+    "geosite:faceit",
+    "geosite:pinterest"
+  ],
+  "DirectIp": [
+    "geoip:private",
+    "geoip:direct"
+  ],
+  "ProxySites": [
+    "geosite:youtube",
+    "geosite:telegram",
+    "geosite:instagram",
+    "geosite:twitter",
+    "geosite:discord",
+    "geosite:netflix",
+    "geosite:spotify",
+    "geosite:tiktok",
+    "geosite:github",
+    "geosite:twitch-ads"
+  ],
+  "ProxyIp": [],
+  "BlockSites": [
+    "geosite:win-spy",
+    "geosite:torrent",
+    "geosite:category-ads"
+  ],
+  "BlockIp": [],
+  "DomainStrategy": "IPIfNonMatch",
+  "FakeDNS": "false",
+  "UseChunkFiles": "true"
+}
