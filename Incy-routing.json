@@ -113,12 +113,6 @@
   "ProxySites": [
     "geosite:youtube",
     "geosite:telegram",
-    "geosite:instagram",
-    "geosite:twitter",
-    "geosite:discord",
-    "geosite:netflix",
-    "geosite:spotify",
-    "geosite:tiktok",
     "geosite:github",
     "geosite:twitch-ads"
   ],
