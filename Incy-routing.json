@@ -8,7 +8,7 @@
   "DomesticDNSType": "DoU",
   "DomesticDNSDomain": "https://8.8.8.8/dns-query",
   "DomesticDNSIP": "8.8.8.8",
-  "Geoipurl": "https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geoip/release/geoip.dat",
+  "Geoipurl": "https://github.com/frayZV/simple-ru-geoip/releases/latest/download/geoip.dat",
   "Geositeurl": "https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geosite/release/geosite.dat",
   "LastUpdated": "4070905200",
   "DnsHosts": {
@@ -107,8 +107,8 @@
     "domain:skcrtxr.com"
   ],
   "DirectIp": [
-    "geoip:private",
-    "geoip:direct"
+    "geoip:ru",
+    "geoip:private"
   ],
   "ProxySites": [
     "geosite:youtube",
